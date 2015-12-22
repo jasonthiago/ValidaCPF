@@ -14,9 +14,7 @@ public class Main {
 		
 		if(cpf.validaCPF(cpf.getNumeroCPF()))
 			JOptionPane.showMessageDialog(null, "O CPF digitado foi "+ cpf.getNumeroCPF());
-		else JOptionPane.showMessageDialog(null, "Número Inválido!");
-
+		else JOptionPane.showMessageDialog(null, "Número de CPF Inválido!");
 		
 	}
-
 }
